@@ -1,7 +1,7 @@
 /* main section */
 .main{
   height: 100vh;
-  background-image: url(../../assets/bg.jpeg);
+  background-image: url(/bg.jpeg);
   background-size: cover;
   display: flex;
   justify-content: center;

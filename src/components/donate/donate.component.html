@@ -1,0 +1,137 @@
+<div class="form-container p-5">
+  <form id="donation-form" method="POST" novalidate class="pt-5">
+    <input class="hidden d-none" type="text" name="birthday_id" id="birthday_id" value="0">
+
+    <div class="row">
+      <div class="col-md-6 col-12">
+        <span class="instructions">
+          املأ جميع الحقول المطلوبة، جميع الحقول بعلامة * إلزامية
+        </span>
+      </div>
+
+      <div class="col-md-6 col-12">
+        <label for="fname">الإسم بالكامل<span class="asterisk">*</span></label>
+        <input type="text" name="fname" id="fname" placeholder="اكتب اسمك بالكامل">
+      </div>
+
+      <div class="col-md-6 col-12">
+        <label for="email">البريد الإلكتروني<span class="asterisk">*</span></label>
+        <input type="email" name="email" id="email" placeholder="اكتب بريدك الإلكتروني">
+      </div>
+
+      <div class="col-md-6 col-12">
+        <label for="mobile">رقم المحمول<span class="asterisk">*</span></label>
+        <input type="number" name="mobile" id="mobile" placeholder="اكتب رقم المحمول">
+      </div>
+
+      <div class="col-md-6 col-12">
+        <label for="country">البلد<span class="asterisk">*</span></label>
+        <select name="country" id="country">
+          <option value="af">أفغانستان</option>
+          <option value="eg">مصر</option>
+          <option value="al">ألبانيا</option>
+          <option value="io">إقليم المحيط الهندي البريطاني</option>
+          <option value="ad">أندورا</option>
+          <option value="ao">أنغولا</option>
+          <option value="ai">أنغويلا</option>
+          <option value="aq">القارة القطبية الجنوبية</option>
+          <option value="ag">أنتيغوا وباربودا</option>
+          <option value="ar">الأرجنتين</option>
+          <option value="am">أرمينيا</option>
+          <option value="aw">أروبا</option>
+          <option value="au">أستراليا</option>
+          <option value="at">النمسا</option>
+          <option value="az">أذربيجان</option>
+          <option value="bs">باهاماس</option>
+          <option value="bh">البحرين</option>
+          <option value="bd">بنغلاديش</option>
+          <option value="bb">باربادوس</option>
+          <option value="by">بيلاروس</option>
+          <option value="be">بلجيكا</option>
+          <option value="bz">بليز</option>
+          <option value="bj">بنين</option>
+          <option value="bm">برمودا</option>
+          <option value="bt">بوتان</option>
+          <option value="bo">بوليفيا</option>
+          <option value="bq">الجزر الكاريبية الهولندية</option>
+          <option value="ba">البوسنة والهرسك</option>
+          <option value="bw">بوتسوانا</option>
+          <option value="bv">جزيرة بوفيه</option>
+          <option value="br">البرازيل</option>
+          <option value="io">إقليم المحيط الهندي البريطاني</option>
+          <option value="bn">بروناي</option>
+          <option value="bg">بلغاريا</option>
+          <option value="bf">بوركينا فاسو</option>
+          <option value="bi">بوروندي</option>
+          <option value="kh">كمبوديا</option>
+          <option value="cm">الكاميرون</option>
+          <option value="ca">كندا</option>
+          <option value="cv">الرأس الأخضر</option>
+          <option value="ky">جزر كايمان</option>
+          <option value="cf">جمهورية أفريقيا الوسطى</option>
+          <option value="td">تشاد</option>
+          <option value="cl">تشيلي</option>
+          <option value="cn">الصين</option>
+          <option value="cc">جزر كوكوس</option>
+          <option value="co">كولومبيا</option>
+          <span class="select2 select2-container select2-container--default" dir="rtl" data-select2-id="select2-data-1-q2t3" style="width: 528px;">
+            <span class="selection">
+              <span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-disabled="false" aria-labelledby="select2-country-container">
+                <span class="select2-selection_rendered" id="select2-country-container" role="textbox" aria-readonly="true" title="مصر">مصر</span>
+                <span class="select2-selection_arrow" role="presentation"><b role="presentation"></b></span>
+              </span>
+            </span>
+            <span class="dropdown-wrapper" aria-hidden="true"></span>
+          </span>
+        </select>
+      </div>
+
+
+    </div>
+
+    <div class="mt-1 row">
+      <div class="col-md-6 col-12">
+          <div class="form-group">
+              <label for="donation">تبرع ل
+                  <span class="asterisk">*</span>
+              </label>
+
+              <select placeholder="إختر برنامج التبرع" class="search-select form-control select2-hidden-accessible" name="donation" id="donation" data-select2-id="select2-data-donation" tabindex="-1" aria-hidden="true">
+                  <optgroup label="برامج التبرع" data-select2-id="select2-data-18-mgho">
+                      <option value="39551" data-select2-id="select2-data-4-2yy4">جمعية رساله</option>
+                      <option value="38149" data-select2-id="select2-data-19-su8p">مؤسسة غيث للتنمية المجتمعية</option>
+                      <option value="37667" data-select2-id="select2-data-20-4nr2">مؤسسة مصر الخير</option>
+                      <option value="636" data-select2-id="select2-data-21-94po">بيت الزكاة والصدقات</option>
+                  </optgroup>
+              </select>
+          </div>
+      </div>
+    </div>
+
+    <div class="form-group">
+        <label for="address">العنوان</label>
+        <textarea class="form-control no-resize font-size-13 rounded-0" type="text" name="address" id="address" placeholder="اكتب عنوانك هنا"></textarea>
+    </div>
+
+    <div class=" custom-radio custom-control form-check form-check-inline active d-flex justify-content-start my-2">
+      <input class="form-check-input ml-5" type="radio" name="monthly_donation" id="once" value="0" checked>
+      <label class="p-1 border form-check-label text-capitalize border-secondary me-5" for="once">تبرع مرة واحدة</label>
+    </div>
+
+      <div class="custom-radio custom-control form-check form-check-inline d-flex justify-content-start my-2">
+        <input class="form-check-input ml-5" type="radio" name="monthly_donation" id="monthly" value="1">
+        <label class="p-1 border form-check-label text-capitalize border-secondary me-5" for="monthly">تبرع شهري</label>
+      </div>
+
+      <div class="d-flex justify-content-end col-6">
+
+          <div class="main-button">
+              <button to="إرسال" type="submit" class="main-button btn btn-secondary">
+                  <i class="fa fa-arrow fa-fw fa-lg fa-spinner d-none fa-spin" id="spin_loader"></i>
+                  إرسال
+              </button>
+          </div>
+      </div>
+
+</form>
+</div>
